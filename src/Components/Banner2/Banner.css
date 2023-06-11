@@ -1,0 +1,235 @@
+.banner2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  position: relative;
+}
+.banner2 h1 {
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  font-weight: 400;
+}
+.banner2 .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner2 .cards .card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid rgba(100, 100, 100, 0.303);
+  margin: 20px;
+  padding-bottom: 7px;
+}
+.banner2 .cards .card h3 {
+  font-size: 17px;
+}
+.banner2 .cards .card p {
+  font-size: 16px;
+  color: gray;
+  margin-top: 3px;
+}
+.banner2 .cards .card span {
+  color: #252525;
+  margin-top: 17px;
+  transform: translateX(215px);
+  font-size: 18px;
+}
+.banner2 .cards .card .colors {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transform: translateX(77px) translateY(80px);
+  opacity: 0;
+  transition: 0.5s;
+}
+.banner2 .cards .card .colors span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  transform: translateX(0px);
+  margin: 6px;
+  transition: 0.3s;
+  outline: 2px solid rgba(128, 128, 128, 0);
+}
+.banner2 .cards .card .colors .red {
+  background-color: red;
+  cursor: pointer;
+}
+.banner2 .cards .card .colors .black {
+  background-color: #000;
+  cursor: pointer;
+}
+.banner2 .cards .card .colors .green {
+  background-color: green;
+  cursor: pointer;
+}
+.banner2 .cards .card .colors .blue {
+  background-color: blue;
+  cursor: pointer;
+}
+.banner2 .cards .card .red:hover {
+  outline: 2px solid rgb(0, 149, 255);
+}
+.banner2 .cards .card .blue:hover {
+  outline: 2px solid rgb(0, 149, 255);
+}
+.banner2 .cards .card .green:hover {
+  outline: 2px solid rgb(0, 149, 255);
+}
+.banner2 .cards .card .black:hover {
+  outline: 2px solid rgb(0, 149, 255);
+}
+.banner2 .cards .card:hover .colors {
+  transform: translateY(50px) translateX(77px);
+  opacity: 1;
+}
+
+.rasmlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.rasmlar .rasm1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../../Images/bose1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.rasmlar .rasm1 .text_rasm1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(-400px);
+}
+.rasmlar .rasm1 .text_rasm1 h1 {
+  font-size: 40px;
+  color: #181818;
+}
+.rasmlar .rasm1 .text_rasm1 p {
+  font-weight: 600;
+  color: #181818;
+  margin-top: 10px;
+}
+.rasmlar .rasm1 .text_rasm1 .b1 {
+  border: 2px solid #252525;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: rgba(127, 255, 212, 0);
+  color: #fff;
+}
+.rasmlar .rasm1 .text_rasm1 .btn {
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: #212121;
+  color: #fff;
+  margin-top: 20px;
+}
+.rasmlar .rasm2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../../Images/bose2.webp);
+  background-size: cover;
+  background-position: center;
+}
+.rasmlar .rasm2 .text_rasm2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(300px);
+}
+.rasmlar .rasm2 .text_rasm2 h1 {
+  font-size: 40px;
+  color: rgb(0, 158, 158);
+}
+.rasmlar .rasm2 .text_rasm2 p {
+  font-weight: 600;
+  color: #181818;
+  margin-top: 10px;
+}
+.rasmlar .rasm2 .text_rasm2 .b2 {
+  border: 2px solid #252525;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.rasmlar .rasm2 .text_rasm2 .btn2 {
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  margin-top: 20px;
+}
+.rasmlar .rasm3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url(../../Images/bose3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.rasmlar .rasm3 .text_rasm3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(-300px);
+}
+.rasmlar .rasm3 .text_rasm3 h1 {
+  font-size: 40px;
+  color: #fff;
+}
+.rasmlar .rasm3 .text_rasm3 p {
+  font-weight: 600;
+  color: #181818;
+  margin-top: 10px;
+  color: #fff;
+}
+.rasmlar .rasm3 .text_rasm3 .b3 {
+  border: 2px solid #252525;
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+.rasmlar .rasm3 .text_rasm3 .btn3 {
+  width: 200px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  margin-top: 20px;
+}/*# sourceMappingURL=Banner.css.map */

@@ -1,0 +1,41 @@
+nav {
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #131313;
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(20px) translateX(-40px);
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul input {
+  width: 240px;
+  height: 25px;
+  text-indent: 10px;
+  border-radius: 16px;
+  border: none;
+  margin-left: 50px;
+}
+nav ul li {
+  margin-left: 30px;
+  font-size: 15px;
+}
+nav ul li a {
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=Navbar.css.map */
